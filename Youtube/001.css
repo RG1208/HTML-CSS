@@ -1,0 +1,9 @@
+.searchbox{
+    display: block;
+    margin-left: 600px;
+    width: 500px;
+    height: 50px;
+    font-size: 23px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
