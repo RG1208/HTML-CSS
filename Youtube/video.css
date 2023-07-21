@@ -1,0 +1,44 @@
+.thumbnail-1{
+    width: 100%;
+}
+.circle{
+   
+    margin-top: 5px;
+}
+.creator{
+    border-radius: 40px;
+    width: 30px;
+    margin-right: 10px;
+}
+.typed{
+    display: inline-block;
+    vertical-align: top;
+}
+.title{
+    margin-top: 5px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.author{
+    color: grey;
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.stats{
+    color: grey;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.lower{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 40px;
+}
