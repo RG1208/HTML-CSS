@@ -13,6 +13,7 @@
 .typed{
     display: inline-block;
     vertical-align: top;
+    margin-left: 10px;
 }
 .title{
     margin-top: 5px;
