@@ -1,8 +1,9 @@
-.thumbnail-1{
+.main{
+    position: relative;
+}.thumbnail-1{
     width: 100%;
 }
 .circle{
-   
     margin-top: 5px;
 }
 .creator{
@@ -42,4 +43,18 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 10px;
     row-gap: 40px;
+}
+.videotime{
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 10px;
+    right:  5px;
+    font-size: 13px;
+    font-family: roboto,arial;
+    font-weight: bold;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
 }
