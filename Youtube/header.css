@@ -12,6 +12,7 @@
     border-color: rgb(228, 224, 224);
     border-bottom-style: solid;
     padding-bottom: 3px;
+    z-index: 100;
 }
 .left{
     display: flex;
@@ -53,6 +54,7 @@
     border-color: rgb(211, 211, 211);
     border-style: solid;
     border-width: 0.1px;
+    
 }
 .search-bar::placeholder{
     font-size: 16px;
@@ -124,11 +126,14 @@
     margin-right: 20px;
 }
 .sidebar{
-    width: 73px;
+    width: 90px;
     position: fixed;
     bottom: 0px;
     top: 59px;
     left: 0px;
+    z-index: 200;
+    cursor: pointer;
+    background-color: white;
    
 }
 .l1{
